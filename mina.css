@@ -1,0 +1,311 @@
+@font-face {
+    font-family:'poppins';
+    src: url(fonts/Poppins-Light.otf);
+}
+
+body{
+    text-decoration: none;
+    font-family: "poppins";
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+header{
+    background:white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;     
+    position:sticky;
+    top: 0;
+}
+header>div.left{
+    width: 60px;
+}
+header>div.left>a>img{
+    width: 100%;
+}
+header>div.right{
+    display: flex;
+    align-items: center;
+}
+div.cart>a>span{
+    font-size: 17px;
+    margin-left: 5px;
+    
+}
+header>div.right>nav>ul>a{
+    font-family:sans-serif;
+    font-size: 17px;;
+    text-decoration: none;
+    margin-left: 30px;
+    color: #000;
+}
+header>div.right>nav>ul>a:hover{
+    text-decoration: underline;
+}
+div.cart{
+    margin-left: 20px;
+    color: #000;
+}
+div.cart>a>img{
+    height: 20px;
+    font-weight: 100;
+}
+div.cart>a{
+    font-family:revert;
+    text-decoration: none;
+    color: #000;
+}
+div.cart>a:hover{
+    text-decoration: underline;
+}
+header>div.right>span{
+    position: absolute;
+    top: 48px;
+    right: 190px;
+    padding: 15px 20px;
+    background: #fff;
+    opacity: 0;
+}
+header>div.right>span:hover{
+    opacity: 1;
+}
+div.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/main.webp);
+     background-position: center;
+     background-size: cover;
+    text-align: center;
+}
+div.home>h1{    
+    margin-top: 20vh;;
+    display: inline-block;
+    font-size: 90px;
+    color: white;
+}
+div.home>h3{
+        margin-top: -50px;
+        color: white;
+}
+div.home>a{
+    margin-top: 20px;
+    display: flex;
+    display:inline-block;
+    width: 80px;
+    text-decoration: none;
+    padding: 20px;
+    background: #fff;
+}
+div.home>a:hover{
+    background: rgb(233, 232, 227);
+}
+div.seller{
+    background:#fff;
+    text-align: center;
+}
+div.seller>h1{
+    font-size: 50px;
+    color:#4d2c57;
+    text-align: center;
+}
+div.seller>ul{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 60px;
+}
+div.seller>ul>li>img{
+    width: 90%;
+}
+div.seller>a{
+    text-decoration: none;
+    width: 100px;
+    display: inline-block;
+    border:1px solid;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+div.seller>a:hover{
+    background:#4d2c57 ;
+    color: #fff;
+}
+section.middle>div.top{
+    background-image: url("images/home decor.avif");
+    background-size: cover;
+     background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+section.middle>div.top{
+    text-align: center;
+}
+section.middle>div.top>h1{
+    display: inline-block;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 20vh;
+}
+section.middle>div.top>h3{
+    color: #fff;
+    margin-top: -30px;
+}
+section.middle>div.top>a{
+    width: 100px;
+    padding: 25px;
+    background:#fff;
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+section.middle>div.top>a:hover{
+    background: rgb(233, 232, 227);
+}
+div.mid{
+    width:100%;
+}
+div.mid>ul{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+div.mid>ul>li{
+    list-style: none;
+}
+div.mid>ul>li>img{
+    width:90%;
+}
+div.mid>ul>li>a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 15px;
+    width: 100px;
+    background: #fff;
+    border: 1.5px solid #000;
+
+}
+div.mid>ul>li>a:hover{
+    background:#4d2c57 ;
+    color: #fff;
+}
+section.middle>div.Bottom{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/signup.avif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+section.middle>div.Bottom>h1{
+    display: inline-block;
+    margin-top: 175px;
+    font-size: 60px;
+    color: #fff;
+}
+section.middle>div.Bottom>form>input{
+    display: inline-block;
+    width: 340px;
+    padding: 15px;
+    background: #fff;
+    border:#000;
+    opacity: 0.5;
+}
+section.middle>div.Bottom>a{
+    margin-top: 50px;
+    display:inline-block;
+    padding: 10px;
+    width: 100px;
+    background: #fff;
+    border:#000;
+    text-decoration: none;
+    opacity: 0.8;
+}
+section.middle>div.Bottom>a:hover{
+    background-color: aliceblue;
+}
+section.bottom>div.media{
+    width: 100%;
+    text-align: center;
+}
+section.bottom>div.media>a{
+    padding: 30px 0px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    display: inline-block;
+}
+section.bottom>div.media>h1{
+    padding: 50px 0px;
+    font-size: 50px;
+    color:#4d2c57;
+    text-align: center;
+
+}
+section.bottom>div.media>ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 60px;
+    justify-content: space-between;
+}
+section.bottom>div.media>ul>li>img{
+    width:100%;
+}
+footer{
+    background: rgb(249 249 249);;
+    padding:100px 60px;
+    justify-content: space-between;
+}
+footer>div.top{
+    display: flex;
+    justify-content: space-between;
+}
+footer>div.top>ul{
+    display: flex;
+    list-style: none;
+}
+footer>div.top>ul>li>a{
+    font-family:sans-serif;
+    margin-left: 40px;
+    color: #000;
+    opacity: 0.8;
+}
+footer>div.top>div.logo{
+    width: 60px;
+    opacity:0.8;
+}
+footer>div.top>div.logo>img{
+    display:block;
+    width:100%;
+    margin-top: 20px;
+}
+footer>div.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+footer>div.bottom>div.social{
+    width: 200px;
+    margin-left: -40px;
+}
+footer>div.bottom>div.social>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;;
+}
+footer>div.bottom>div.social>ul>li{
+    width: 40px;
+    margin-right: 30px;
+}
+footer>div.bottom>div.social>ul>li>img{
+    width: 100%;
+}
+footer>div.bottom>span{
+    opacity: 0.8;
+    font-size: medium;
+}
